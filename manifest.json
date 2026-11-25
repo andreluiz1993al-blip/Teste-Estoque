@@ -1,15 +1,20 @@
 {
+  "id": "/Teste-Estoque/",
   "name": "Gestão de Estoque Pro",
   "short_name": "EstoquePro",
-  "start_url": "index.html",
+  "description": "Aplicativo para controle de estoque, vendas e relatórios mensais.",
+  "start_url": "/Teste-Estoque/index.html",
+  "scope": "/Teste-Estoque/",
   "display": "standalone",
-  "background_color": "#0f172a",
-  "theme_color": "#2563eb",
+  "orientation": "portrait",
+  "background_color": "#090d16",
+  "theme_color": "#090d16",
   "icons": [
     {
       "src": "https://flaticon.com",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
